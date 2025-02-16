@@ -1,0 +1,790 @@
+fileFormatVersion: 2
+guid: 0d8c4203e6c6ccd4c8c622442f2659bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8303220119010083920
+    second: ObjetosMaquina_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ObjetosMaquina_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0540975b4b6fa3370800000000000000
+      internalID: 8303220119010083920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 768
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fbc88bbf7529f4eb7c7e74cbce6cfc
+      internalID: -1196388433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 768
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0539c9d1712450479121986d6e0fabd
+      internalID: -438139151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 768
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981f43d6e97d50d41868629a372a8c1f
+      internalID: -857268379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 768
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4d1f85433c67549accb66c257c7b02
+      internalID: -431800985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_5
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 768
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28454ca5d020e4746a5aaf0d528d768a
+      internalID: -1354163572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 768
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05aa7c693af43a4b95612425d8252ae
+      internalID: -2042199615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80301ad98014834380e35266a3f6f50
+      internalID: -489537429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 512
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d63fb7b56ee6244957bf88dbb09dff
+      internalID: 368641511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 512
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a8a3a83394d0a4e8769773a012a0c5
+      internalID: 1596396938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 512
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366b927e90d86aa48815bf2c01a0face
+      internalID: -1640246346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_11
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 512
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51452c9e3a30fad4b8249b1c2fae78f9
+      internalID: -949016193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_12
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 512
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e042b49ab279f418972e05f0a5375a
+      internalID: 1752558335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_13
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 512
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f355fd5944ba274eaeb305a1d4c7b50
+      internalID: -867138082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa8a76099a650a4bbd1754943fa1edd
+      internalID: 1152244247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 256
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63115e88a9298f74f8aa79b81f4df34d
+      internalID: 873887982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_16
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 256
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670dd163facd2de47a0b21a7e6c116ff
+      internalID: -61353828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_17
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 256
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3c7484a2899734da3baf32181eeadb
+      internalID: -1874999430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_18
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 256
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735ce9ca945fea547b8e839da68b52a1
+      internalID: -1882784221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_19
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 256
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f753cc46856045a4fa2cf8ff61c0af9d
+      internalID: -546075498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_20
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 256
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b826dc4e6a8d74449aad2b4fe4c49444
+      internalID: 873348930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7c4a805b79abe4e877037268bd0dfe
+      internalID: -211702500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5fa32aad079784bbc89148b66c5d24
+      internalID: -1806746319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_23
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624d7978e6bb10d4cbfae7e7583328ed
+      internalID: -999123319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_24
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 0
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f4a1a41a05c2d4ba7d5ac7373a3995
+      internalID: 1921073238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_25
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193f3966bbb7be140accd71ff99b7665
+      internalID: 291840937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_26
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 0
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567de1e3bcc2d7f4e8ff4dadffe59e18
+      internalID: -171870461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObjetosMaquina_27
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 0
+        width: 146
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129d1dcd472a63a4bb7df75c015fbcb5
+      internalID: 1344389302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1203e2f91f112be468a223fece0c035b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ObjetosMaquina_0: 8303220119010083920
+      ObjetosMaquina_1: -1196388433
+      ObjetosMaquina_10: -1640246346
+      ObjetosMaquina_11: -949016193
+      ObjetosMaquina_12: 1752558335
+      ObjetosMaquina_13: -867138082
+      ObjetosMaquina_14: 1152244247
+      ObjetosMaquina_15: 873887982
+      ObjetosMaquina_16: -61353828
+      ObjetosMaquina_17: -1874999430
+      ObjetosMaquina_18: -1882784221
+      ObjetosMaquina_19: -546075498
+      ObjetosMaquina_2: -438139151
+      ObjetosMaquina_20: 873348930
+      ObjetosMaquina_21: -211702500
+      ObjetosMaquina_22: -1806746319
+      ObjetosMaquina_23: -999123319
+      ObjetosMaquina_24: 1921073238
+      ObjetosMaquina_25: 291840937
+      ObjetosMaquina_26: -171870461
+      ObjetosMaquina_27: 1344389302
+      ObjetosMaquina_3: -857268379
+      ObjetosMaquina_4: -431800985
+      ObjetosMaquina_5: -1354163572
+      ObjetosMaquina_6: -2042199615
+      ObjetosMaquina_7: -489537429
+      ObjetosMaquina_8: 368641511
+      ObjetosMaquina_9: 1596396938
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
