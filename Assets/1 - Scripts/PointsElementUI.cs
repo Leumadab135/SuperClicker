@@ -1,46 +1,23 @@
 using UnityEngine;
 using DG.Tweening;
 using TMPro;
+using System.Collections;
 
 public class PointsElementUI : MonoBehaviour
 {
-    #region Fields
+    [SerializeField] float _duration = 1.5f;
+    [SerializeField] private TextMeshProUGUI _pointsText;
 
-    [SerializeField] private float duration = 1.5f;
-    [SerializeField] private TextMeshProUGUI pointsText;
-    private string FormatNumber(float number)
+    void Start()
     {
-        string[] suffixes = { "", "K", "M", "B", "T", "Qa", "Qi", "Sx", "Sp", "O", "N", "D", "Ud", "Dd", "Td", "Qd", "Qid", "Sxd", "Spd", "Od", "Nd", "Y" };
+        //Set Click
+        _pointsText.text ="+ " + FindFirstObjectByType<GameController>().ClickRatio.ToString();
 
-        int order = 0;
-        while (number >= 1000f && order < suffixes.Length - 1)
-        {
-            number /= 1000f;
-            order++;
-        }
-
-        return number.ToString("0.#") + suffixes[order];
+        //Movement
+        transform.DOMoveY(transform.position.y + 60, _duration);
+        
+        //Fade Color
+        _pointsText.DOColor(new Color(0,0,0,0), _duration);
+        Destroy(gameObject, _duration);
     }
-    #endregion
-
-    #region Unity Callbacks
-
-    private void Start()
-    {
-        float points = FindFirstObjectByType<GameController>().ClickRatio;
-        pointsText.text = "+ " + FormatNumber(points);
-
-        if (points >= 100000)
-        {
-            pointsText.fontSize *= 0.8f;
-        }
-
-        transform.DOMoveY(transform.position.y + 100, duration);
-        pointsText.DOFade(0, duration);
-        Destroy(gameObject, duration);
-    }
-    #endregion
-
 }
-
-
