@@ -8,7 +8,7 @@ public class AutoClickerAgent : MonoBehaviour
     private float _clickTimer = 0f;
     private GameController _game;
 
-    [field: SerializeField] private float _clicksPerSec = 1f;
+    [field: SerializeField] private float _clicksPerSec = 0.5f;
     #endregion
 
     #region Properties

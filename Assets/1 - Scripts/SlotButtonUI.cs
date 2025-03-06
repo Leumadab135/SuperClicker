@@ -10,6 +10,7 @@ public class SlotButtonUI : MonoBehaviour
     [field: SerializeField] public Agent Agent;
     public static event Action<Reward> OnSlotReward;
     public static event Action<Agent> OnSlotAgent;
+
     public int ClicksLeft
     {
         get
@@ -47,7 +48,7 @@ public class SlotButtonUI : MonoBehaviour
     #region Fields
     [Header("GameController")]
     [Header("UI")]
-    [SerializeField] private Button _clickButton;
+    [SerializeField] public Button _clickButton;
     [SerializeField] private TextMeshProUGUI _clicksText;
     [SerializeField] private ParticleSystem _particles;
     [Header("Prefab Points")]

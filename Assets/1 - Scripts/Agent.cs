@@ -5,7 +5,7 @@ public enum AgentType
 {
     AutoClicker,
     SpeedBoost,
-    x10ClickSpeed,
+    ClickMultiplier,
     AreaClick
 }
 

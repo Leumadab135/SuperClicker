@@ -51,6 +51,16 @@ public class RewardsPanelTextUpdate : MonoBehaviour
         {
             _rewardTypeText = "X2 CLICK SPEED";
         }
+
+        else if (agent.AgentType == AgentType.ClickMultiplier)
+        {
+            _rewardTypeText = "X3 CLICK RATIO";
+        }
+
+        else if (agent.AgentType == AgentType.AreaClick)
+        {
+            _rewardTypeText = "ALL OBJECTS ARE CLICKED";
+        }
         _rewardText.text = ("REWARD!!!\n" + _rewardTypeText);
     }
 
@@ -69,7 +79,7 @@ public class RewardsPanelTextUpdate : MonoBehaviour
         Sequence mySequence = DOTween.Sequence();
 
         mySequence.Append(_rewardPanel.transform.DOScale(1, 1));
-        mySequence.Append(_rewardPanel.transform.DOShakeRotation(1, new Vector3(0, 0, 15)));
+        mySequence.Append(_rewardPanel.transform.DOShakeScale(2, new Vector3(0.1f, 0.1f, 0), 5));
         mySequence.Append(_rewardPanel.transform.DOScale(0, 1));
         mySequence.Play();
     }

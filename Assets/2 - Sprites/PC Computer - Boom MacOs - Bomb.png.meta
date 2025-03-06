@@ -1,43 +1,16 @@
 fileFormatVersion: 2
-guid: 8d6e8069bee6ed54f8249d1ff808371a
+guid: d8bce2167a9cf084db38a4ed8f6192a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5802349547939750269
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_0
+      213: -3770995495832687744
+    second: PC Computer - Boom MacOs - Bomb_0
   - first:
-      213: 7568466399791269796
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_1
+      213: 5428014448099587999
+    second: PC Computer - Boom MacOs - Bomb_1
   - first:
-      213: 4605772457315972897
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_2
-  - first:
-      213: 8901940092233463307
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_3
-  - first:
-      213: -2565356005370973122
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_4
-  - first:
-      213: -3580314202182234746
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_5
-  - first:
-      213: -254525195616858037
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_6
-  - first:
-      213: -5735313556134515030
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_7
-  - first:
-      213: 7654547292308984778
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_8
-  - first:
-      213: 2130846055637957740
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_9
-  - first:
-      213: -1916907731293260110
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_10
-  - first:
-      213: -2508497198722933257
-    second: Wii - Monsters vs Aliens - Multiplier Numbers (1)_11
+      213: 6546490842435494775
+    second: PC Computer - Boom MacOs - Bomb_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 0.7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -138,7 +111,7 @@ TextureImporter:
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -159,89 +132,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wii - Monsters vs Aliens - Multiplier Numbers (1)_0
+      name: PC Computer - Boom MacOs - Bomb_0
       rect:
         serializedVersion: 2
-        x: 68
-        y: 71
-        width: 54
-        height: 56
+        x: 1
+        y: 0
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38e176c04d9e97fa0800000000000000
-      internalID: -5802349547939750269
+      spriteID: 08b6b4d739bbaabc0800000000000000
+      internalID: -3770995495832687744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wii - Monsters vs Aliens - Multiplier Numbers (1)_1
+      name: PC Computer - Boom MacOs - Bomb_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 71
-        width: 54
-        height: 56
+        x: 33
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a7c9065718980960800000000000000
-      internalID: 7568466399791269796
+      spriteID: f97f9a6b16e245b40800000000000000
+      internalID: 5428014448099587999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wii - Monsters vs Aliens - Multiplier Numbers (1)_4
+      name: PC Computer - Boom MacOs - Bomb_2
       rect:
         serializedVersion: 2
-        x: 68
-        y: 6
-        width: 55
-        height: 56
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e34b2711e46066cd0800000000000000
-      internalID: -2565356005370973122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wii - Monsters vs Aliens - Multiplier Numbers (1)_8
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 6
-        width: 54
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac35182f43a6a3a60800000000000000
-      internalID: 7654547292308984778
+      spriteID: 77327b48cbec9da50800000000000000
+      internalID: 6546490842435494775
       vertices: []
       indices: 
       edges: []
@@ -250,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ce0dbef887565534299d7dc45299b723
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -260,18 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_0: -5802349547939750269
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_1: 7568466399791269796
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_10: -1916907731293260110
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_11: -2508497198722933257
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_2: 4605772457315972897
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_3: 8901940092233463307
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_4: -2565356005370973122
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_5: -3580314202182234746
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_6: -254525195616858037
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_7: -5735313556134515030
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_8: 7654547292308984778
-      Wii - Monsters vs Aliens - Multiplier Numbers (1)_9: 2130846055637957740
+      PC Computer - Boom MacOs - Bomb_0: -3770995495832687744
+      PC Computer - Boom MacOs - Bomb_1: 5428014448099587999
+      PC Computer - Boom MacOs - Bomb_2: 6546490842435494775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

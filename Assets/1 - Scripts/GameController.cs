@@ -7,7 +7,6 @@ public class GameController : MonoBehaviour
     #region Properties
     [field: SerializeField] public float ClickRatio { get; set; }
 
-
     [Header("Rain")]
     [field: SerializeField] public ParticleSystem _particlesRain;
     [Header("Slots en Escena")]
@@ -15,11 +14,11 @@ public class GameController : MonoBehaviour
     #endregion
 
     #region Fields
-    [SerializeField] private List<SlotButtonUI> _slots = new List<SlotButtonUI>();
+    [SerializeField] public List<SlotButtonUI> _slots = new List<SlotButtonUI>();
     [Header("Rewards")]
     [field: SerializeField] private RewardsPanelTextUpdate _textUpgrader;
     [field: SerializeField] private GameObject[] _agentPrefabs;
-    [field: SerializeField] private RectTransform _x2ClickSpeedPanel;
+    [field: SerializeField] private RectTransform _agentsPanel;
     #endregion
 
     #region Unity Callbacks
@@ -88,7 +87,19 @@ public class GameController : MonoBehaviour
 
         if (agent.AgentType == AgentType.SpeedBoost)
         {
-            Instantiate(_agentPrefabs[1], _x2ClickSpeedPanel);
+            Instantiate(_agentPrefabs[1], _agentsPanel);
+            return;
+        }
+        
+        if (agent.AgentType == AgentType.ClickMultiplier)
+        {
+            Instantiate(_agentPrefabs[2], _agentsPanel);
+            return;
+        }
+        
+        if (agent.AgentType == AgentType.AreaClick)
+        {
+            Instantiate(_agentPrefabs[3], _agentsPanel);
             return;
         }
     }
