@@ -45,7 +45,7 @@ Desarrollado por **Samuel David Jiménez**
 - Programación y UI: completamente realizado por mí
 
 **LinkedIn**: [https://www.linkedin.com/in/samuel-david-jiménez-viasus-1341822b0](https://www.linkedin.com/in/samuel-david-jiménez-viasus-1341822b0)  
-**Repositorio**: 
+**Repositorio**: https://github.com/Leumadab135/SuperClicker
 
 ---
 
