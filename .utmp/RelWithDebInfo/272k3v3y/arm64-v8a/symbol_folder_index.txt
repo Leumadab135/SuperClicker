@@ -1,0 +1,1 @@
+C:\Users\Usuario\Desktop\UNITY\Proyects\SuperClicker\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\272k3v3y\obj\arm64-v8a

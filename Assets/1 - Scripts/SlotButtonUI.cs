@@ -20,9 +20,15 @@ public class SlotButtonUI : MonoBehaviour
         set
         {
             _clicksLeft = value;
+
             if (_clicksLeft <= 0)
             {
-                _stock--;
+                if (_initialClicks >= 2000000000)
+                {
+                    _stock -= 5;
+                }
+                else
+                    _stock--;
 
                 if (_stock > 0)
                 {
@@ -35,6 +41,7 @@ public class SlotButtonUI : MonoBehaviour
                 else
                 {
                     OnSlotAgent?.Invoke(Agent);
+                    _game.CheckAllSlotsEmpty();
 
                     GetComponent<Image>().enabled = false;
                     _clickButton.interactable = false;
@@ -89,7 +96,9 @@ public class SlotButtonUI : MonoBehaviour
         _particles.Emit(1);
         ClicksLeft -= clickCount;
         RefreshClicksUI();
+
         Instantiate(_pointsPrefab, transform);
+        SoundManager.Instance.PlaySFX(SoundManager.Instance.ClickSound);
         Camera.main.DOShakePosition(0.1f);
     }
     public void Initialize(ParticleSystem particleSystem)
@@ -111,14 +120,14 @@ public class SlotButtonUI : MonoBehaviour
         _clicksText.text = FormatNumber(ClicksLeft);
     }
 
-    private string FormatNumber(int number)
+    private string FormatNumber(float number)
     {
-        string[] suffixes = { "", "K", "M", "B", "T", "Qa", "Qi", "Sx", "Sp", "O", "N", "D", "Ud", "Dd", "Td", "Qd", "Qid", "Sxd", "Spd", "Od", "Nd", "Y" };
+        string[] suffixes = { "", "K", "M", "B", "T", "Qa", "Qn", "Sx", "Sp", "O", "N", "D", "Ud", "Dd", "Td", "Qd", "Qid", "Sxd", "Spd", "Od", "Nd", "Y" };
 
         int order = 0;
         while (number >= 1000f && order < suffixes.Length - 1)
         {
-            number /= 1000;
+            number /= 1000f;
             order++;
         }
 

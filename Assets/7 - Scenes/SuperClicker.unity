@@ -237,7 +237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '100k
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -255,7 +255,7 @@ PrefabInstance:
       objectReference: {fileID: -949016193, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 100000
+      value: 5000000
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -264,6 +264,10 @@ PrefabInstance:
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
+      propertyPath: Agent.<AgentType>k__BackingField
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<AgentType>k__BackingField
@@ -392,7 +396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '100
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -410,7 +414,7 @@ PrefabInstance:
       objectReference: {fileID: -431800985, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -418,11 +422,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Agent.<AgentType>k__BackingField
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<AgentType>k__BackingField
@@ -602,7 +606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '50K
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -620,7 +624,7 @@ PrefabInstance:
       objectReference: {fileID: -489537429, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 10
+      value: 12500
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -628,11 +632,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 1
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Agent.<AgentType>k__BackingField
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<AgentType>k__BackingField
@@ -761,7 +765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '1000
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -779,7 +783,7 @@ PrefabInstance:
       objectReference: {fileID: -1354163572, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 10
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -787,11 +791,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Agent.<AgentType>k__BackingField
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<AgentType>k__BackingField
@@ -897,7 +901,7 @@ RectTransform:
   m_GameObject: {fileID: 195656156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.87131065, y: 0.87131065, z: 0.87131065}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1908334700}
@@ -1036,7 +1040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '10K
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -1054,7 +1058,7 @@ PrefabInstance:
       objectReference: {fileID: -2042199615, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 10
+      value: 2500
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -1062,11 +1066,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Agent.<AgentType>k__BackingField
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<AgentType>k__BackingField
@@ -1074,7 +1078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<RewardType>k__BackingField
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1199,7 +1203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '1M
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -1217,7 +1221,7 @@ PrefabInstance:
       objectReference: {fileID: 1152244247, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 2147483647
+      value: 1000000000
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -1225,7 +1229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 12
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<AgentType>k__BackingField
@@ -1745,7 +1749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '100k
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -1763,7 +1767,7 @@ PrefabInstance:
       objectReference: {fileID: 1596396938, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 10
+      value: 200000
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -1771,7 +1775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 1
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Agent.<AgentType>k__BackingField
@@ -1942,7 +1946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '100k
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -1960,7 +1964,7 @@ PrefabInstance:
       objectReference: {fileID: 1752558335, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 100000
+      value: 20000000
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -1968,7 +1972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 3
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<AgentType>k__BackingField
@@ -1976,7 +1980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<RewardType>k__BackingField
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2101,7 +2105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '100k
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -2119,7 +2123,7 @@ PrefabInstance:
       objectReference: {fileID: -1640246346, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 100000
+      value: 1000000
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -2127,11 +2131,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Agent.<AgentType>k__BackingField
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<AgentType>k__BackingField
@@ -2139,7 +2143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<RewardType>k__BackingField
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2231,6 +2235,252 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1670612047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1670612051}
+  - component: {fileID: 1670612050}
+  - component: {fileID: 1670612049}
+  - component: {fileID: 1670612048}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1670612048
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670612047}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &1670612049
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670612047}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1192.6792
+  MaxDistance: 1326.0928
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1670612050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670612047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c282a1c33c798b54c8cda84a6dfcf4ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _musicSource: {fileID: 1670612049}
+  _sfxSource: {fileID: 1670612048}
+  ClickSound: {fileID: 8300000, guid: 3403a3d3ee1ed8d4a9bc2feed9f9da6f, type: 3}
+  RewardSound: {fileID: 8300000, guid: ef7c4331e24d454458a94c6299d433e9, type: 3}
+  OutOfStockSound: {fileID: 8300000, guid: 31a33a5cfd99e8d48b8ba405fd34a30a, type: 3}
+  BackgroundMusic: {fileID: 8300000, guid: 6c485c1f159f82d4193889cf431ce01c, type: 3}
+--- !u!4 &1670612051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670612047}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -201.62605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7207,7 +7457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '100k
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -7225,7 +7475,7 @@ PrefabInstance:
       objectReference: {fileID: -867138082, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 100000
+      value: 100000000
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -7233,7 +7483,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 3
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
+      propertyPath: Agent.<AgentType>k__BackingField
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<AgentType>k__BackingField
@@ -7292,10 +7546,10 @@ RectTransform:
   - {fileID: 119374376}
   m_Father: {fileID: 195656160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -91.53839, y: 188.5232}
-  m_SizeDelta: {x: -378.8475, y: -1035.3003}
+  m_AnchorMin: {x: 0.10724707, y: 0.36953524}
+  m_AnchorMax: {x: 0.736355, y: 0.82738817}
+  m_AnchoredPosition: {x: -7.5792847, y: -0.43925476}
+  m_SizeDelta: {x: 20.724197, y: 5.8648453}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1893574626
 MonoBehaviour:
@@ -7361,10 +7615,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 195656160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.64489746}
-  m_SizeDelta: {x: 0, y: -1.2899799}
+  m_AnchorMin: {x: 0, y: 0.04376076}
+  m_AnchorMax: {x: 1, y: 0.9573918}
+  m_AnchoredPosition: {x: 0, y: -0.51446533}
+  m_SizeDelta: {x: 0, y: 164.64087}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1908334701
 MonoBehaviour:
@@ -7733,7 +7987,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: m_text
-      value: '100k
+      value: ':D
 
 '
       objectReference: {fileID: 0}
@@ -7751,7 +8005,7 @@ PrefabInstance:
       objectReference: {fileID: 368641511, guid: 0d8c4203e6c6ccd4c8c622442f2659bb, type: 3}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 10
+      value: 50000
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -7759,7 +8013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 1
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Agent.<AgentType>k__BackingField
@@ -7870,9 +8124,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slot Object
       objectReference: {fileID: 0}
+    - target: {fileID: 7398894283903806171, guid: c193511a6c724264f882b9913830d689, type: 3}
+      propertyPath: m_text
+      value: ':D
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _initialClicks
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: _materialParticleIndex
@@ -7880,11 +8140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<Value>k__BackingField
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Agent.<AgentType>k__BackingField
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7716143424083569237, guid: c193511a6c724264f882b9913830d689, type: 3}
       propertyPath: Reward.<RewardType>k__BackingField
@@ -7900,6 +8160,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 507478796}
+  - {fileID: 1670612051}
   - {fileID: 60082516}
   - {fileID: 748754122}
   - {fileID: 195656160}

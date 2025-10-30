@@ -45,21 +45,25 @@ public class RewardsPanelTextUpdate : MonoBehaviour
         if (agent.AgentType == AgentType.AutoClicker)
         {
             _rewardTypeText = "+1 AUTOCLICKER";
+            return;
         }
 
-        else if (agent.AgentType == AgentType.SpeedBoost)
+        if (agent.AgentType == AgentType.SpeedBoost)
         {
             _rewardTypeText = "X2 CLICK SPEED";
+            return;
         }
 
-        else if (agent.AgentType == AgentType.ClickMultiplier)
+        if (agent.AgentType == AgentType.ClickMultiplier)
         {
             _rewardTypeText = "X3 CLICK RATIO";
+            return;
         }
 
-        else if (agent.AgentType == AgentType.AreaClick)
+        if (agent.AgentType == AgentType.AreaClick)
         {
             _rewardTypeText = "ALL OBJECTS ARE CLICKED";
+            return;
         }
         _rewardText.text = ("REWARD!!!\n" + _rewardTypeText);
     }
@@ -79,7 +83,7 @@ public class RewardsPanelTextUpdate : MonoBehaviour
         Sequence mySequence = DOTween.Sequence();
 
         mySequence.Append(_rewardPanel.transform.DOScale(1, 1));
-        mySequence.Append(_rewardPanel.transform.DOShakeScale(2, new Vector3(0.1f, 0.1f, 0), 5));
+        mySequence.Append(_rewardPanel.transform.DOShakeScale(1, new Vector3(0.1f, 0.1f, 0), 5));
         mySequence.Append(_rewardPanel.transform.DOScale(0, 1));
         mySequence.Play();
     }

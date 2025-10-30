@@ -18,7 +18,6 @@ public class AreaClickAgent : MonoBehaviour
     {
         _game = FindAnyObjectByType<GameController>();
 
-        // Guardamos los slots y cambiamos su comportamiento
         foreach (var slot in _game._slots)
         {
             affectedSlots.Add(slot);
@@ -26,6 +25,11 @@ public class AreaClickAgent : MonoBehaviour
         }
 
         StartCoroutine(EliminateAfterDelay());
+    }
+
+    private void Update()
+    {
+        _timerImage.fillAmount -= Time.deltaTime / _duration;
     }
     #endregion
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-using System.Data;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -25,6 +25,8 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        SoundManager.Instance.PlayMusic(SoundManager.Instance.BackgroundMusic);
+
         SlotButtonUI.OnSlotReward += GetReward;
         SlotButtonUI.OnSlotAgent += GetAgent;
     }
@@ -39,7 +41,7 @@ public class GameController : MonoBehaviour
     #region Public Methods
     public void RainParticles(int materialParticleIndex)
     {
-        Initialize(_particlesRain, materialParticleIndex); // Aplicar el frame de la textura
+        Initialize(_particlesRain, materialParticleIndex);
         _particlesRain.Play();
         Invoke(nameof(StopRainParticles), 2f);
     }
@@ -50,17 +52,20 @@ public class GameController : MonoBehaviour
     {
         _particlesRain.Stop();
     }
+
     private void Initialize(ParticleSystem particleSystem, int materialParticleIndex)
     {
-        float segment = 1f / 28f;  // Divide la textura en 28 frames
+        float segment = 1f / 28f;
         float frame = segment * materialParticleIndex;
         var tex = particleSystem.textureSheetAnimation;
-        tex.startFrame = frame;  // Asigna el frame correcto
+        tex.startFrame = frame;
     }
 
     private void GetReward(Reward reward)
     {
         _textUpgrader.ShowTextReward(reward);
+        SoundManager.Instance.PlaySFX(SoundManager.Instance.RewardSound);
+        CheckAllSlotsEmpty();
 
         if (reward.RewardType == RewardType.Plus)
         {
@@ -78,6 +83,8 @@ public class GameController : MonoBehaviour
     private void GetAgent(Agent agent)
     {
         _textUpgrader.ShowTextAgent(agent);
+        SoundManager.Instance.PlaySFX(SoundManager.Instance.OutOfStockSound);
+        CheckAllSlotsEmpty();
 
         if (agent.AgentType == AgentType.AutoClicker)
         {
@@ -101,6 +108,25 @@ public class GameController : MonoBehaviour
         {
             Instantiate(_agentPrefabs[3], _agentsPanel);
             return;
+        }
+    }
+
+    public void CheckAllSlotsEmpty()
+    {
+        bool allSlotsEmpty = true;
+
+        foreach (var slot in _slots)
+        {
+            if (slot.ClicksLeft > 0)
+            {
+                allSlotsEmpty = false;
+                break;
+            }
+        }
+
+        if (allSlotsEmpty)
+        {
+            SceneManager.LoadScene("EndGame");
         }
     }
     #endregion
