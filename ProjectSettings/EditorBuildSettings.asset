@@ -12,5 +12,10 @@ EditorBuildSettings:
     path: Assets/7 - Scenes/EndGame.unity
     guid: 7df43ec82fcb08b488d37b1a69d6f66c
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 455603a12bf418a41ae6ff15b7121ce7, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 3b98d2eadb003fa40be71bb12d227396, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 41bea4eabd0732544a932444ec3d809d, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: be559301585ccf94184716c7a353b79b, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0db423e1570c06b4c9764f927d4dc30b, type: 2}
   m_UseUCBPForAssetBundles: 0
